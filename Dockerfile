@@ -1,4 +1,4 @@
-FROM golang:1.6-onbuild
+FROM golang:1.6
 RUN apk-get install -y nodejs
 RUN apk-get install -y python
 RUN apk-get install -y make
